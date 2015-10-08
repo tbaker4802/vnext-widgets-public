@@ -1,6 +1,6 @@
 {
   "name": "vnext-widgets",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
     "angular-animate": "~1.4.0",
     "angular-cookies": "~1.4.0",
