@@ -1,0 +1,118 @@
+widget {
+
+  &.wclose {
+    right: 0px;
+  }
+
+  &.wmenu {
+    right: 25px;
+  }
+
+  &.wadd {
+    right: 50px;
+  }
+}
+/*
+.vnCol {
+  border: 1px solid rgba(1,1,1,0);
+  height: 100%;
+  border: 1px solid red;
+}
+
+.vnRow{
+  border: 1px solid rgba(1,1,1,0);
+  height: 100%;
+  border: 1px solid grey;
+  margin: 1px;
+
+}*/
+
+[editable-section],
+[theme-section]{
+  transition: box-shadow 0.15s;
+}
+
+.vn-widget{
+  position: relative;
+  display: block;
+  transition: box-shadow 0.15s;
+
+  &--hover{
+    box-shadow: 0px 0px 0px 99999px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 9999;
+  }
+
+  &__menu{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 998;
+
+    button{
+      border-radius: 3px;
+      border: 0px;
+      height: 25px;
+      width: 25px;
+      display: inline-block;
+      line-height: 20px;
+    }
+  }
+}
+
+.insertBottom{
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.carousel-widget{
+  margin-bottom: 50px;
+
+  &__image{
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+.image-widget{
+
+  &__image{
+    width: 100%;
+  }
+  &__link{
+    display: inline-block;
+  }
+}
+
+.acme-malarkey {
+  text-transform: capitalize;
+  color: #cb3837;
+
+  &:after {
+    animation: cursor-blink 0.4s linear infinite;
+    content: "|";
+    color: #cb3837;
+  }
+}
+
+@keyframes cursor-blink {
+  1% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.acme-navbar-text {
+  color: white;
+}
