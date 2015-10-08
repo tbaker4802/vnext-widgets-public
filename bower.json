@@ -1,6 +1,6 @@
 {
   "name": "vnext-widgets",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "dependencies": {
     "angular-animate": "~1.4.0",
     "angular-cookies": "~1.4.0",
@@ -20,8 +20,8 @@
     "vnext-components": "~0.0.4"
   },
   "main": [
-    "dist/vnext.widgets.js",
-    "dist/vnext.widgets.less",
-    "dist/vnext.widgets.templates.js"
+    "vnext.widgets.js",
+    "vnext.widgets.less",
+    "vnext.widgets.templates.js"
   ]
 }
