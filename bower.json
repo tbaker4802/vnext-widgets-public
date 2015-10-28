@@ -1,6 +1,6 @@
 {
   "name": "vnext-widgets",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "dependencies": {
     "angular-animate": "~1.4.0",
     "angular-cookies": "~1.4.0",
@@ -17,7 +17,8 @@
     "angular-redactor": "~1.1.5",
     "vNextSDK": "~0.0.10",
     "ng-videosharing-embed": "~0.3.3",
-    "vnext-components": "~0.0.4"
+    "vnext-components": "~0.0.8",
+    "vnext-theme-admin-connector": "~0.0.3"
   },
   "main": [
     "vnext.widgets.js",
