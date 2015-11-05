@@ -1,6 +1,6 @@
 {
   "name": "vnext-widgets",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "dependencies": {
     "angular-animate": "~1.4.7",
     "angular-cookies": "~1.4.7",
@@ -15,11 +15,11 @@
     "animate.css": "~3.4.0",
     "angular": "~1.4.7",
     "angular-redactor": "~1.1.5",
-    "vNextSDK": "~0.0.12",
+    "vNextSDK": "~0.0.13",
     "ng-videosharing-embed": "~0.3.4",
-    "vnext-components": "~0.0.16",
+    "vnext-components": "~0.0.23",
     "vnext-theme-admin-connector": "~0.0.3",
-    "material-analytics": "~0.0.7"
+    "material-analytics": "~0.0.8"
   },
   "main": [
     "vnext.widgets.js",
